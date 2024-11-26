@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .nav-links li {
@@ -96,4 +96,41 @@ img
     font-size: 14px;
     color: black;
     text-align: right;
+}
+.flexbox-container{
+    justify-content: space-around;
+    flex-direction:row-reverse;
+}
+.box2 {
+    
+    background-color: gray;
+    text-align: center;
+    border-radius: 90px;
+    border-color: black;
+    border-style: double;
+    margin-left: 39%;
+    margin-right: 39%;
+    padding-top: 100px;
+    padding-bottom: 128px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: large;
+}
+
+.login{
+    background-color: #00b4cc;
+    border: none;
+    width: 150px;
+    height: 25px;
+    box-shadow: black;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#username{
+    width: 200px;
+    height: 20px;
+}
+#password{
+    width: 200px;
+    height: 20px;
 }
