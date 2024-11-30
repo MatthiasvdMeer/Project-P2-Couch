@@ -2,12 +2,21 @@ function login(){
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
 
-    if(username == "AdminUser" && password == "Admin123"){
-        alert("Welcome in the Couch!");
-        window.location.href = ("page1.html")
+if(username == "AdminUser" && password == "Admin123"){
+    alert("If you're not a thief, Welcome in the Couch!");
+    window.location.href = ("Admin.html")
 }
-    else{
-        alert("Please try again.");
+ else if(username == "ParentUser" && password == "Parents123"){
+    alert("If you're not a thief, Welcome in the Couch!");
+    window.location.href = ("User1.html")
+}
+else if(username == "TeacherUser" && password == "Teacher123"){
+    alert("If you're not a thief, Welcome in the Couch!");
+    window.location.href = ("User2.html")
+}
+
+else{
+    alert("DO IT AGAIN!!! YOU DID IT WRONG!!!!.");
         
 }
 }
