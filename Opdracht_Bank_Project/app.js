@@ -1,3 +1,5 @@
+
+//login wachtwoorden en usernames, alleen deze kunnen naar hun eigen pagina.
 function login(){
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
@@ -21,6 +23,24 @@ else{
 }
 }
 
+//nieuw account aanmaken
+let clickCount = 0;
+
+document.getElementById("Btn").addEventListener("click", function() {
+    clickCount++;
+    const div1 = document.getElementById("r4");
+    const div2 = document.getElementById("r5");
+
+    if (clickCount === 1) {
+        div1.style.display = "block";
+        div2.style.display = "none";
+    } else if (clickCount === 2) {
+        div1.style.display = "block";
+        div2.style.display = "block";
+    }
+});
+
+//Datum rechtsonderin de footer, laat current date zien.
 function showCurrentDate() {
     const date = new Date();
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
