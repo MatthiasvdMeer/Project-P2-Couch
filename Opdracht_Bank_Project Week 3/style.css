@@ -1,0 +1,179 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menubalk */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00b4cc;
+    color: white;
+    height: 90px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffaa00;
+}
+
+/* Hoofdinhoud */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #00b4cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position:relative;
+    bottom: 0;
+    width: 98,5%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-links {
+    font-size: 0.9em;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffaa00;
+}
+img
+{
+    border-radius: 100%;
+}
+.navbar .slogan{
+    list-style: none;
+    margin-right: 60%;
+    font-size: 34px;
+}
+#dateDisplay {
+    position: flex;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: black;
+    text-align: right;
+}
+.flexbox-container{
+    justify-content: space-around;
+    flex-direction:row-reverse;
+}
+.box2 {
+    
+    background-color: gray;
+    text-align: center;
+    border-radius: 90px;
+    border-color: black;
+    border-style: double;
+    margin-left: 39%;
+    margin-right: 39%;
+    padding-top: 100px;
+    padding-bottom: 128px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: large;
+}
+
+.login{
+    background-color: #00b4cc;
+    border: none;
+    width: 150px;
+    height: 25px;
+    box-shadow: black;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#username{
+    width: 200px;
+    height: 20px;
+}
+#password{
+    width: 200px;
+    height: 20px;
+}
+.buttons
+{
+    width: 45%;
+    margin-top: 10px;
+    box-shadow: none;
+}
+.new-account-btn
+{
+    background-color: #00b4cc;
+    border-style: none;
+    width: 200px;
+    height: 35px;
+    font-size: large;
+}
+.uitlog
+{
+    background-color: #00b4cc;
+    border-style: none;
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    border-style: solid;
+    justify-content: space-around;
+    
+}
+.account-list
+{
+    background-color: darkcyan;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 45%;
+    height: 200px;
+    border-style: double;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.account-item
+{
+    background-color: white;
+    margin: 10px;
+    font-size: large;
+}
