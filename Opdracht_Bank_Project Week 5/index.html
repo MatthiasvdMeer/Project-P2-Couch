@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu & Footer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menubalk -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="img/images.jpg" width="150px" alt=""></div>
+            <ul  class="slogan">
+               <li>Your trustworthy <br>
+            Couch</li>
+            </ul>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">Over Ons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hoofdinhoud -->
+    <main>
+        <div id="home" class="flexbox-container">
+            
+            <div class="box2">
+            <h1>Log in</h1>
+                <br>
+
+                <label for="User">Username</label>
+                    <br>
+                <input type="text" name="" id="username" placeholder="Username">
+                    <br>
+                    <br>
+
+                <label for="Password">Password</label><br>
+                <input type="password" name="" id="password" placeholder="Password">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                
+                <button class="login" onclick="login()">Log in</button>
+
+            </div>
+
+    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="dateDisplay"></div>
+        <div class="footer-links">
+            <a href="#privacy">Privacybeleid</a> | 
+            <a href="#terms">Algemene Voorwaarden</a> | 
+            <a href="#support">Support</a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
